@@ -1,0 +1,15 @@
+[package]
+name = "arkllm"
+version = "0.0.1"
+edition = "2018"
+authors = ["Ravinthiran Partheepan <ravinthiranpartheepan@gmail.com>"]
+documentation = "https://docs.rs/arkgan/latest/arkllm/"
+description = "An open source LLM toolkit"
+license = "Apache-2.0"
+
+[lib]
+name = "arkllm"
+path = "./src/lib.rs"
+
+[dependencies]
+regex = "1.10.3"
